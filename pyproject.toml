@@ -1,0 +1,15 @@
+[tool.ruff]
+target-version = "py37"
+
+[tool.ruff.lint]
+fixable = ["ALL"]
+# List of rules https://docs.astral.sh/ruff/rules/
+select = ["F", "I"]
+
+[tool.ruff.lint.per-file-ignores]
+# Fine for __init__.py files:
+# * F401: Module imported but unused
+# * F403: 'from .module import *'
+# (resolvable via __all__ list,
+# see https://docs.python.org/3/tutorial/modules.html#importing-from-a-package)
+"mythril/**/__init__.py" = ["F401", "F403"]

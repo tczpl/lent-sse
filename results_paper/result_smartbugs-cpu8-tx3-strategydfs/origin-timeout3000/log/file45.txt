@@ -1,0 +1,91 @@
+checking START-7:0 START-7:0
+get_model_info SAT is_possible START-7:0 START-7:0 8729 0.004553
+checking START-7:1 START-7:1
+get_model_info SAT is_possible START-7:1 START-7:1 6727 0.002732
+get_model_info UNSAT2 integer None START-7:1 35 0.001082
+get_model_info UNSAT2 integer None START-7:1 29 0.000755
+get_model_info UNSAT2 integer None START-7:1 39 0.000737
+get_model_info UNSAT2 integer None START-7:1 37 0.001491
+get_model_info UNSAT2 integer None START-7:1 27 0.000753
+get_model_info UNSAT2 integer None START-7:1 35 0.000692
+get_model_info UNSAT2 get_transaction_sequence None START-7:1 37 0.001175
+get_model_info UNSAT2 get_transaction_sequence None START-7:1 39 0.000999
+get_model_info UNSAT2 get_transaction_sequence None START-7:1 39 0.000962
+get_model_info UNSAT2 get_transaction_sequence None START-7:1 41 0.001027
+self.use_reachability_check True
+checking use_reachability_check
+get_model_info SAT is_possible START-7:1 START-7:1 7574 0.004217
+open_states 1
+checking START-7:0 START-7:1-7:0
+get_model_info SAT is_possible START-7:1-7:0 START-7:0 40227 0.016043
+checking START-7:1 START-7:1-7:1
+get_model_info SAT is_possible START-7:1-7:1 START-7:1 22834 0.013262
+checking START-7:0-19:0 START-7:1-7:0-19:0
+get_model_info SAT is_possible START-7:1-7:0-19:0 START-7:0-19:0 25811 0.01552
+checking START-7:0-19:1 START-7:1-7:0-19:1
+get_model_info SAT is_possible START-7:1-7:0-19:1 START-7:0-19:1 25605 0.015958
+checking START-7:0-19:1-34:0 START-7:1-7:0-19:1-34:0
+get_model_info SAT is_possible START-7:1-7:0-19:1-34:0 START-7:0-19:1-34:0 25660 0.015934
+checking START-7:0-19:1-34:1 START-7:1-7:0-19:1-34:1
+get_model_info SAT is_possible START-7:1-7:0-19:1-34:1 START-7:0-19:1-34:1 23774 0.0153
+get_model_info UNSAT2 get_transaction_sequence None START-7:0-19:1-34:1 9 0.001677
+get_model_info UNSAT2 state_cahnge_exernal_calls1 None START-7:0-19:1-34:1 117 0.001321
+get_model_info UNSAT2 ether_thief None START-7:0-19:1-34:1 675631 0.045068
+checking START-7:0-19:1-34:1-218:0 START-7:1-7:0-19:1-34:1-218:0
+get_model_info SAT is_possible START-7:1-7:0-19:1-34:1-218:0 START-7:0-19:1-34:1-218:0 33175 0.018618
+checking START-7:0-19:1-34:1-218:1 START-7:1-7:0-19:1-34:1-218:1
+get_model_info SAT is_possible START-7:1-7:0-19:1-34:1-218:1 START-7:0-19:1-34:1-218:1 45092 0.021038
+get_model_info UNSAT2 get_transaction_sequence None START-7:0-19:1-34:1-218:1 9 0.001959
+get_model_info UNSAT2 state_cahnge_exernal_calls1 None START-7:0-19:1-34:1-218:1 133 0.00162
+get_model_info UNSAT2 ether_thief None START-7:0-19:1-34:1-218:1 627277 0.04529
+checking START-7:0-19:1-34:1-218:1-218:0 START-7:1-7:0-19:1-34:1-218:1-218:0
+get_model_info UNSAT2 is_possible START-7:1-7:0-19:1-34:1-218:1-218:0 START-7:0-19:1-34:1-218:1-218:0 151 0.001852
+UnsatError
+checking START-7:0-19:1-34:1-218:1-218:1 START-7:1-7:0-19:1-34:1-218:1-218:1
+get_model_info SAT is_possible START-7:1-7:0-19:1-34:1-218:1-218:1 START-7:0-19:1-34:1-218:1-218:1 57374 0.020007
+get_model_info UNSAT2 integer None START-7:0-19:1-34:1-218:1-218:1 139 0.001887
+get_model_info UNSAT2 integer None START-7:0-19:1-34:1-218:1-218:1 143 0.001801
+get_model_info SAT get_transaction_sequence None START-7:0-19:1-34:1-218:1-218:1 194393 0.060686
+get_model_info SAT get_transaction_sequence None START-7:0-19:1-34:1-218:1-218:1 190397 0.061465
+get_model_info UNSAT2 get_transaction_sequence None START-7:0-19:1-34:1-218:1-218:1 369 0.002169
+get_model_info SAT get_transaction_sequence None START-7:0-19:1-34:1-218:1-218:1 190397 0.001096
+get_model_info UNSAT2 get_transaction_sequence None START-7:0-19:1-34:1-218:1-218:1 369 0.001102
+get_model_info UNSAT2 mutation_pruner None START-7:0-19:1-34:1-218:1-218:1 201 0.001982
+checking START-7:0-19:0-24:0 START-7:1-7:0-19:0-24:0
+get_model_info SAT is_possible START-7:1-7:0-19:0-24:0 START-7:0-19:0-24:0 42946 0.019667
+checking START-7:0-19:0-24:1 START-7:1-7:0-19:0-24:1
+get_model_info SAT is_possible START-7:1-7:0-19:0-24:1 START-7:0-19:0-24:1 44468 0.019842
+checking START-7:0-19:0-24:1-50:0 START-7:1-7:0-19:0-24:1-50:0
+get_model_info SAT is_possible START-7:1-7:0-19:0-24:1-50:0 START-7:0-19:0-24:1-50:0 45508 0.020177
+checking START-7:0-19:0-24:1-50:1 START-7:1-7:0-19:0-24:1-50:1
+get_model_info SAT is_possible START-7:1-7:0-19:0-24:1-50:1 START-7:0-19:0-24:1-50:1 38363 0.019644
+get_model_info UNSAT2 mutation_pruner None START-7:0-19:0-24:1-50:1 839 0.003288
+self.use_reachability_check True
+checking use_reachability_check
+get_model_info SAT is_possible START-7:1-7:0-19:1-34:1-218:1-218:1 START-7:0-19:1-34:1-218:1-218:1 36691 0.033783
+open_states 1
+checking START-7:0 START-7:1-7:0-19:1-34:1-218:1-218:1-7:0
+get_model_info SAT is_possible START-7:1-7:0-19:1-34:1-218:1-218:1-7:0 START-7:0 92382 0.051542
+checking START-7:1 START-7:1-7:0-19:1-34:1-218:1-218:1-7:1
+get_model_info SAT is_possible START-7:1-7:0-19:1-34:1-218:1-218:1-7:1 START-7:1 74778 0.048153
+checking START-7:0-19:0 START-7:1-7:0-19:1-34:1-218:1-218:1-7:0-19:0
+get_model_info SAT is_possible START-7:1-7:0-19:1-34:1-218:1-218:1-7:0-19:0 START-7:0-19:0 60806 0.049373
+checking START-7:0-19:1 START-7:1-7:0-19:1-34:1-218:1-218:1-7:0-19:1
+get_model_info SAT is_possible START-7:1-7:0-19:1-34:1-218:1-218:1-7:0-19:1 START-7:0-19:1 120777 0.056023
+checking START-7:0-19:1-34:0 START-7:1-7:0-19:1-34:1-218:1-218:1-7:0-19:1-34:0
+get_model_info SAT is_possible START-7:1-7:0-19:1-34:1-218:1-218:1-7:0-19:1-34:0 START-7:0-19:1-34:0 77395 0.051585
+checking START-7:0-19:1-34:1 START-7:1-7:0-19:1-34:1-218:1-218:1-7:0-19:1-34:1
+get_model_info SAT is_possible START-7:1-7:0-19:1-34:1-218:1-218:1-7:0-19:1-34:1 START-7:0-19:1-34:1 81219 0.053936
+get_model_info UNSAT2 get_transaction_sequence None START-7:0-19:1-34:1 9 0.003957
+get_model_info UNSAT2 state_cahnge_exernal_calls1 None START-7:0-19:1-34:1 233 0.003325
+get_model_info UNSAT2 ether_thief None START-7:0-19:1-34:1 1421913 0.192242
+checking START-7:0-19:1-34:1-218:0 START-7:1-7:0-19:1-34:1-218:1-218:1-7:0-19:1-34:1-218:0
+get_model_info SAT is_possible START-7:1-7:0-19:1-34:1-218:1-218:1-7:0-19:1-34:1-218:0 START-7:0-19:1-34:1-218:0 93568 0.055859
+checking START-7:0-19:1-34:1-218:1 START-7:1-7:0-19:1-34:1-218:1-218:1-7:0-19:1-34:1-218:1
+get_model_info SAT is_possible START-7:1-7:0-19:1-34:1-218:1-218:1-7:0-19:1-34:1-218:1 START-7:0-19:1-34:1-218:1 152708 0.068948
+checking START-7:0-19:0-50:0 START-7:1-7:0-19:1-34:1-218:1-218:1-7:0-19:0-50:0
+get_model_info SAT is_possible START-7:1-7:0-19:1-34:1-218:1-218:1-7:0-19:0-50:0 START-7:0-19:0-50:0 109294 0.057445
+checking START-7:0-19:0-50:1 START-7:1-7:0-19:1-34:1-218:1-218:1-7:0-19:0-50:1
+get_model_info SAT is_possible START-7:1-7:0-19:1-34:1-218:1-218:1-7:0-19:0-50:1 START-7:0-19:0-50:1 82552 0.058113
+get_model_info UNSAT2 mutation_pruner None START-7:0-19:0-50:1 1605 0.00536
+get_sym_info {'sym_time': 5.013078, 'sym_cnt': 1, 'total_states': 771, 'create_time': 0.73243}

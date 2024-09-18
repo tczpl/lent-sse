@@ -1,0 +1,49 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+# Apply to all files without commiting:
+#   pre-commit run --all-files
+# Update this file:
+#   pre-commit autoupdate
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.6.0
+    hooks:
+    -   id: check-toml
+    -   id: check-yaml
+-   repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.6.1
+    hooks:
+    -   id: ruff
+        args: [--fix, --show-fixes]
+-   repo: https://github.com/psf/black
+    rev: 24.8.0
+    hooks:
+    -   id: black
+-   repo: https://github.com/scop/pre-commit-shfmt
+    rev: v3.8.0-1
+    hooks:
+    -   id: shfmt
+        args: [--write, --indent, '4']
+-   repo: https://github.com/shellcheck-py/shellcheck-py
+    rev: v0.10.0.1
+    hooks:
+    -   id: shellcheck
+-   repo: https://github.com/hadolint/hadolint
+    rev: v2.12.0
+    hooks:
+    -   id: hadolint-docker
+-   repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
+    rev: v2.14.0
+    hooks:
+    -   id: pretty-format-toml
+        args: [--autofix]
+-   repo: https://github.com/python-jsonschema/check-jsonschema
+    rev: 0.29.1
+    hooks:
+    -   id: check-circle-ci
+    -   id: check-github-workflows
+    -   id: check-dependabot
+-   repo: meta
+    hooks:
+    -   id: check-hooks-apply
+    -   id: check-useless-excludes

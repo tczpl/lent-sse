@@ -1,0 +1,40 @@
+checking START-7:0 START-7:0
+get_model_info SAT is_possible START-7:0 START-7:0 8669 0.004057
+checking START-7:1 START-7:1
+get_model_info SAT is_possible START-7:1 START-7:1 55 0.000784
+self.use_reachability_check True
+checking use_reachability_check
+get_model_info SAT is_possible START-7:1 START-7:1 55 1.8e-05
+open_states 1
+checking START-7:0 START-7:1-7:0
+get_model_info SAT is_possible START-7:1-7:0 START-7:0 24588 0.006023
+checking START-7:1 START-7:1-7:1
+get_model_info SAT is_possible START-7:1-7:1 START-7:1 25134 0.005168
+checking START-7:1-126:0 START-7:1-7:1-126:0
+get_model_info SAT is_possible START-7:1-7:1-126:0 START-7:1-126:0 24371 0.005825
+checking START-7:1-126:1 START-7:1-7:1-126:1
+get_model_info SAT is_possible START-7:1-7:1-126:1 START-7:1-126:1 2318 0.001954
+get_model_info UNSAT2 mutation_pruner None None 53 0.000536
+get_model_info SAT mutation_pruner None None 24329 0.005755
+checking START-7:0-19:0 START-7:1-7:0-19:0
+get_model_info SAT is_possible START-7:1-7:0-19:0 START-7:0-19:0 34485 0.00668
+checking START-7:0-19:1 START-7:1-7:0-19:1
+get_model_info SAT is_possible START-7:1-7:0-19:1 START-7:0-19:1 35360 0.00703
+checking START-7:0-19:1-165:0 START-7:1-7:0-19:1-165:0
+get_model_info SAT is_possible START-7:1-7:0-19:1-165:0 START-7:0-19:1-165:0 34560 0.007393
+checking START-7:0-19:1-165:1 START-7:1-7:0-19:1-165:1
+get_model_info SAT is_possible START-7:1-7:0-19:1-165:1 START-7:0-19:1-165:1 9095 0.003126
+get_model_info UNSAT2 mutation_pruner None None 559 0.002384
+checking START-7:0-19:0-24:0 START-7:1-7:0-19:0-24:0
+get_model_info UNKNOWN is_possible START-7:1-7:0-19:0-24:0 START-7:0-19:0-24:0 100000 0.041336
+checking START-7:0-19:0-24:1 START-7:1-7:0-19:0-24:1
+get_model_info UNKNOWN is_possible START-7:1-7:0-19:0-24:1 START-7:0-19:0-24:1 100000 0.029971
+self.use_reachability_check True
+checking use_reachability_check
+get_model_info SAT is_possible START-7:1-7:1-126:0 START-7:1-126:0 24371 3.1e-05
+open_states 1
+checking START-7:0 START-7:1-7:1-126:0-7:0
+get_model_info UNKNOWN is_possible START-7:1-7:1-126:0-7:0 START-7:0 100000 0.034034
+checking START-7:1 START-7:1-7:1-126:0-7:1
+get_model_info UNKNOWN is_possible START-7:1-7:1-126:0-7:1 START-7:1 100000 0.03368
+get_sym_info {'sym_time': 14.753879, 'sym_cnt': 1, 'total_states': 212, 'create_time': 13.460934}

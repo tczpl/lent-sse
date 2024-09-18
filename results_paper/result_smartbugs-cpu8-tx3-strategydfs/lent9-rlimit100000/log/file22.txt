@@ -1,0 +1,80 @@
+checking START-7:0 START-7:0
+pent9 check START-7:0
+get_model_info SAT is_possible START-7:0 START-7:0 8669 0.004068
+checking START-7:1 START-7:1
+pent9 check START-7:1
+get_model_info SAT is_possible START-7:1 START-7:1 55 0.000757
+self.use_reachability_check True
+checking use_reachability_check
+get_model_info SAT is_possible START-7:1 START-7:1 55 1.9e-05
+open_states 1
+checking START-7:0 START-7:1-7:0
+pent9 skip START-7:0
+checking START-7:1 START-7:1-7:1
+pent9 skip START-7:1
+checking START-7:0-19:0 START-7:1-7:0-19:0
+pent9 check START-7:0-19:0
+get_model_info SAT is_possible START-7:1-7:0-19:0 START-7:0-19:0 33591 0.006815
+checking START-7:0-19:1 START-7:1-7:0-19:1
+pent9 check START-7:0-19:1
+get_model_info SAT is_possible START-7:1-7:0-19:1 START-7:0-19:1 33776 0.006791
+checking START-7:0-19:1-29:0 START-7:1-7:0-19:1-29:0
+pent9 check START-7:0-19:1-29:0
+get_model_info SAT is_possible START-7:1-7:0-19:1-29:0 START-7:0-19:1-29:0 33980 0.00694
+checking START-7:0-19:1-29:1 START-7:1-7:0-19:1-29:1
+pent9 check START-7:0-19:1-29:1
+get_model_info SAT is_possible START-7:1-7:0-19:1-29:1 START-7:0-19:1-29:1 8101 0.002821
+get_model_info SAT integer None START-7:0-19:1-29:1 80041 0.032429
+get_model_info UNKNOWN get_transaction_sequence None START-7:0-19:1-29:1 100000 0.04946
+pent9 unknown START-7:0-19:1-29:1
+pent9 remove START-7:0-19:1
+pent9 remove START-7:0
+get_model_info UNSAT2 integer None START-7:0-19:1-29:1 7757 0.013162
+get_model_info UNSAT2 integer None START-7:0-19:1-29:1 325 0.001462
+get_model_info UNSAT2 integer None START-7:0-19:1-29:1 93 0.001283
+get_model_info UNSAT2 get_transaction_sequence None START-7:0-19:1-29:1 781 0.00177
+get_model_info UNSAT2 mutation_pruner None START-7:0-19:1-29:1 327 0.001368
+self.use_reachability_check True
+checking use_reachability_check
+get_model_info SAT is_possible START-7:1-7:0-19:1-29:1 START-7:0-19:1-29:1 8101 2.5e-05
+open_states 1
+checking START-7:0 START-7:1-7:0-19:1-29:1-7:0
+pent9 check START-7:0
+get_model_info SAT is_possible START-7:1-7:0-19:1-29:1-7:0 START-7:0 45654 0.016865
+checking START-7:1 START-7:1-7:0-19:1-29:1-7:1
+pent9 skip START-7:1
+checking START-7:0-29:0 START-7:1-7:0-19:1-29:1-7:0-29:0
+pent9 check START-7:0-29:0
+get_model_info UNKNOWN is_possible START-7:1-7:0-19:1-29:1-7:0-29:0 START-7:0-29:0 100000 0.023776
+pent9 unknown START-7:0-29:0
+pent9 remove START-7:0
+checking START-7:0-29:1 START-7:1-7:0-19:1-29:1-7:0-29:1
+pent9 check START-7:0-29:1
+get_model_info SAT is_possible START-7:1-7:0-19:1-29:1-7:0-29:1 START-7:0-29:1 61577 0.018314
+get_model_info UNKNOWN integer None START-7:0-29:1 100000 0.046889
+pent9 unknown START-7:0-29:1
+get_model_info UNSAT2 integer None START-7:0-29:1 161 0.002257
+get_model_info UNSAT2 integer None START-7:0-29:1 12495 0.02139
+get_model_info UNSAT2 integer None START-7:0-29:1 637 0.002288
+get_model_info UNSAT2 get_transaction_sequence None START-7:0-29:1 1457 0.002808
+get_model_info UNSAT2 mutation_pruner None START-7:0-29:1 639 0.002253
+self.use_reachability_check True
+checking use_reachability_check
+get_model_info SAT is_possible START-7:1-7:0-19:1-29:1-7:0-29:1 START-7:0-29:1 61577 2.9e-05
+open_states 1
+get_model_info SAT wanna_execute2 None None 53089 0.020013
+get_model_info SAT wanna_execute2 None None 211 0.000772
+checking START-7:0 START-7:1-7:0-19:1-29:1-7:0-29:1-7:0
+pent9 check START-7:0
+get_model_info SAT is_possible START-7:1-7:0-19:1-29:1-7:0-29:1-7:0 START-7:0 69563 0.031091
+checking START-7:1 START-7:1-7:0-19:1-29:1-7:0-29:1-7:1
+pent9 skip START-7:1
+get_model_info SAT wanna_execute2 None None 211 0.000159
+checking START-7:0-19:0 START-7:1-7:0-19:1-29:1-7:0-29:1-7:0-19:0
+pent9 skip START-7:0-19:0
+checking START-7:0-19:1 START-7:1-7:0-19:1-29:1-7:0-29:1-7:0-19:1
+pent9 check START-7:0-19:1
+get_model_info UNKNOWN is_possible START-7:1-7:0-19:1-29:1-7:0-29:1-7:0-19:1 START-7:0-19:1 100000 0.033247
+pent9 unknown START-7:0-19:1
+pent9 remove START-7:0
+get_sym_info {'sym_time': 3.353805, 'sym_cnt': 1, 'total_states': 245, 'create_time': 0.259941}

@@ -1,0 +1,15 @@
+checking START-7:0 START-7:0
+get_model_info UNKNOWN is_possible START-7:0 START-7:0 500 0.003265
+checking START-7:1 START-7:1
+get_model_info SAT is_possible START-7:1 START-7:1 55 0.000756
+get_model_info UNSAT2 get_transaction_sequence None None 25 0.001084
+get_model_info UNSAT2 get_transaction_sequence None None 25 0.000891
+self.use_reachability_check True
+checking use_reachability_check
+get_model_info SAT is_possible START-7:1 START-7:1 55 1.3e-05
+open_states 1
+checking START-7:0 START-7:1-7:0
+get_model_info UNKNOWN is_possible START-7:1-7:0 START-7:0 500 0.001291
+checking START-7:1 START-7:1-7:1
+get_model_info UNKNOWN is_possible START-7:1-7:1 START-7:1 500 0.001001
+get_sym_info {'sym_time': 0.888507, 'sym_cnt': 1, 'total_states': 79, 'create_time': 0.862238}

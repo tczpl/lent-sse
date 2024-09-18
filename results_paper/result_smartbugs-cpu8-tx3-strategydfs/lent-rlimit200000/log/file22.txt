@@ -1,0 +1,82 @@
+checking START-7:0 START-7:0
+pent check START-7:0
+get_model_info SAT is_possible START-7:0 START-7:0 8669 0.004274
+checking START-7:1 START-7:1
+pent check START-7:1
+get_model_info SAT is_possible START-7:1 START-7:1 55 0.000777
+self.use_reachability_check True
+checking use_reachability_check
+get_model_info SAT is_possible START-7:1 START-7:1 55 1.4e-05
+open_states 1
+checking START-7:0 START-7:1-7:0
+pent skip START-7:0
+checking START-7:1 START-7:1-7:1
+pent skip START-7:1
+checking START-7:0-19:0 START-7:1-7:0-19:0
+pent check START-7:0-19:0
+get_model_info SAT is_possible START-7:1-7:0-19:0 START-7:0-19:0 33591 0.00703
+checking START-7:0-19:1 START-7:1-7:0-19:1
+pent check START-7:0-19:1
+get_model_info SAT is_possible START-7:1-7:0-19:1 START-7:0-19:1 33776 0.007004
+checking START-7:0-19:1-29:0 START-7:1-7:0-19:1-29:0
+pent check START-7:0-19:1-29:0
+get_model_info SAT is_possible START-7:1-7:0-19:1-29:0 START-7:0-19:1-29:0 33980 0.007481
+checking START-7:0-19:1-29:1 START-7:1-7:0-19:1-29:1
+pent check START-7:0-19:1-29:1
+get_model_info SAT is_possible START-7:1-7:0-19:1-29:1 START-7:0-19:1-29:1 8101 0.003022
+get_model_info SAT integer None None 80041 0.036023
+get_model_info UNKNOWN get_transaction_sequence None None 200000 0.058748
+get_model_info UNSAT2 integer None None 7757 0.013593
+get_model_info UNSAT2 integer None None 325 0.0015
+get_model_info UNSAT2 integer None None 93 0.001267
+get_model_info UNSAT2 get_transaction_sequence None None 781 0.001784
+get_model_info UNSAT2 mutation_pruner None None 327 0.001276
+self.use_reachability_check True
+checking use_reachability_check
+get_model_info SAT is_possible START-7:1-7:0-19:1-29:1 START-7:0-19:1-29:1 8101 3.2e-05
+open_states 1
+checking START-7:0 START-7:1-7:0-19:1-29:1-7:0
+pent skip START-7:0
+checking START-7:1 START-7:1-7:0-19:1-29:1-7:1
+pent skip START-7:1
+checking START-7:0-29:0 START-7:1-7:0-19:1-29:1-7:0-29:0
+pent check START-7:0-29:0
+get_model_info SAT is_possible START-7:1-7:0-19:1-29:1-7:0-29:0 START-7:0-29:0 82884 0.020982
+checking START-7:0-29:1 START-7:1-7:0-19:1-29:1-7:0-29:1
+pent check START-7:0-29:1
+get_model_info SAT is_possible START-7:1-7:0-19:1-29:1-7:0-29:1 START-7:0-29:1 61588 0.018884
+get_model_info UNKNOWN integer None None 200000 0.057582
+get_model_info UNSAT2 integer None None 161 0.00233
+get_model_info UNSAT2 integer None None 12497 0.023595
+get_model_info UNSAT2 integer None None 637 0.002409
+get_model_info UNSAT2 get_transaction_sequence None None 1457 0.002878
+get_model_info UNSAT2 mutation_pruner None None 639 0.002171
+self.use_reachability_check True
+checking use_reachability_check
+get_model_info SAT is_possible START-7:1-7:0-19:1-29:1-7:0-29:1 START-7:0-29:1 61588 4e-05
+open_states 1
+get_model_info SAT wanna_execute2 None None 55236 0.020082
+get_model_info SAT wanna_execute2 None None 211 0.000672
+checking START-7:0 START-7:1-7:0-19:1-29:1-7:0-29:1-7:0
+pent skip START-7:0
+checking START-7:1 START-7:1-7:0-19:1-29:1-7:0-29:1-7:1
+pent skip START-7:1
+get_model_info SAT wanna_execute2 None None 211 0.000168
+checking START-7:0-19:0 START-7:1-7:0-19:1-29:1-7:0-29:1-7:0-19:0
+pent skip START-7:0-19:0
+checking START-7:0-19:1 START-7:1-7:0-19:1-29:1-7:0-29:1-7:0-19:1
+pent skip START-7:0-19:1
+get_model_info SAT wanna_execute2 None None 55236 0.000194
+checking START-7:0-19:1-29:0 START-7:1-7:0-19:1-29:1-7:0-29:1-7:0-19:1-29:0
+pent skip START-7:0-19:1-29:0
+checking START-7:0-19:1-29:1 START-7:1-7:0-19:1-29:1-7:0-29:1-7:0-19:1-29:1
+pent skip START-7:0-19:1-29:1
+get_model_info SAT wanna_execute2 None None 55236 0.000204
+get_model_info SAT wanna_execute2 None None 55236 0.000193
+get_model_info UNSAT2 integer None None 229 0.003173
+get_model_info UNKNOWN integer None None 200000 0.096641
+get_model_info UNSAT2 integer None None 943 0.003365
+get_model_info UNSAT2 integer None None 17250 0.035591
+get_model_info UNSAT2 get_transaction_sequence None None 2127 0.003948
+get_model_info UNSAT2 mutation_pruner None None 945 0.003077
+get_sym_info {'sym_time': 4.507822, 'sym_cnt': 1, 'total_states': 324, 'create_time': 0.234275}
